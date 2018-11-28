@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import './style.css';
 import './semantic-ui/semantic.min.css';
+import './styles/video-react.css';
+import { Player } from 'video-react';
 
 import {
   Button,
@@ -95,9 +96,8 @@ class DesktopContainer extends Component {
                 <Menu.Item as="a" active>
                   Home
                 </Menu.Item>
-                <Menu.Item as="a">Work</Menu.Item>
-                <Menu.Item as="a">Company</Menu.Item>
-                <Menu.Item as="a">Careers</Menu.Item>
+                <Menu.Item as="a">About</Menu.Item>
+                <Menu.Item as="a">Plans</Menu.Item>
                 <Menu.Item position="right">
                   <Button as="a" inverted={!fixed}>
                     Log in
@@ -156,9 +156,8 @@ class MobileContainer extends Component {
             <Menu.Item as="a" active>
               Home
             </Menu.Item>
-            <Menu.Item as="a">Work</Menu.Item>
-            <Menu.Item as="a">Company</Menu.Item>
-            <Menu.Item as="a">Careers</Menu.Item>
+            <Menu.Item as="a">About</Menu.Item>
+            <Menu.Item as="a">Plans</Menu.Item>
             <Menu.Item as="a">Log in</Menu.Item>
             <Menu.Item as="a">Sign Up</Menu.Item>
           </Sidebar>
@@ -225,9 +224,9 @@ const HomepageLayout = () => (
               Who are we?
             </Header>
             <p style={{ fontSize: '1.33em' }}>
-              The Dr. Quantum Society is a meme that's gone way too far. We are
-              a society centered around the character Dr. Quantum, who is a kind
-              old animated man used to teach children chemistry and physics.
+              We are a society centered around the character Dr. Quantum, who is
+              a kind old animated man used to teach children chemistry and
+              physics.
             </p>
             <Header as="h3" style={{ fontSize: '2em' }}>
               What are our goals?
@@ -242,7 +241,7 @@ const HomepageLayout = () => (
               bordered
               rounded
               size="large"
-              src="/images/wireframe/white-image.png"
+              src={'./images/grossmanimg.jpg'}
             />
           </Grid.Column>
         </Grid.Row>
@@ -259,19 +258,17 @@ const HomepageLayout = () => (
         <Grid.Row textAlign="center">
           <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
             <Header as="h3" style={{ fontSize: '2em' }}>
-              "What a Company"
+              "This is probably a joke" - ASA
             </Header>
-            <p style={{ fontSize: '1.33em' }}>
-              That is what they all say about us
-            </p>
+            <p style={{ fontSize: '1.33em' }}>Fair.</p>
           </Grid.Column>
           <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
             <Header as="h3" style={{ fontSize: '2em' }}>
-              "I shouldn't have gone with their competitor."
+              "You guys are a meme that's gone way too far."
             </Header>
             <p style={{ fontSize: '1.33em' }}>
               <Image avatar src="/images/avatar/large/nan.jpg" />
-              <b>Nan</b> Chief Fun Officer Acme Toys
+              <b />
             </p>
           </Grid.Column>
         </Grid.Row>
@@ -281,17 +278,45 @@ const HomepageLayout = () => (
     <Segment style={{ padding: '8em 0em' }} vertical>
       <Container text>
         <Header as="h3" style={{ fontSize: '2em' }}>
-          Breaking The Grid, Grabs Your Attention
+          Quantum Rules
         </Header>
+        <p style={{ fontSize: '1.33em' }}>Rules of the Dr. Quantum Society:</p>
         <p style={{ fontSize: '1.33em' }}>
-          Instead of focusing on content creation and hard work, we have learned
-          how to master the art of doing nothing by providing massive amounts of
-          whitespace and generic content that can seem massive, monolithic and
-          worth your attention.
+          1. Every official email subject line must contain "it may or may not
+          be"
+          <br />
+          2. Our official motto is "Isn't it funny? That which we are most
+          afraid of, is what thrills us the most" from our lord Dr. Quantum.
+          <br />
+          3. You must collapse the wave function.
+          <br />
+          4. Every time someone says "You know what they say?" You must
+          immediately ask "What DO they say?" and record whatever that person
+          says.
+          <br />
+          5. Learn from Dr. Quantum and reach inside people's stomachs and
+          hearts.
+          <br />
+          6. Do not anger the crystallographers.
+          <br />
+          7. At 10:31 every day, we send out a recording of "it may or may not
+          be Dr. Quantum"
+          <br />
+          8. Sophomores are the official name for ice cream sandwiches with all
+          the toppings in the middle and a dunce cone on top. We eat sophomores
+          for celebration.
         </p>
         <Button as="a" size="large">
           Read More
         </Button>
+
+        <p>
+          <Player
+            playsInline
+            poster={'./images/seascreencap.png'}
+            src={'./videos/sea-of-electrons.MOV'}
+          />
+        </p>
 
         <Divider
           as="h4"
@@ -299,19 +324,17 @@ const HomepageLayout = () => (
           horizontal
           style={{ margin: '3em 0em', textTransform: 'uppercase' }}
         >
-          <a href="#">Case Studies</a>
+          <a href="#" />
         </Divider>
 
         <Header as="h3" style={{ fontSize: '2em' }}>
-          Did We Tell You About Our Bananas?
+          Want to Join?
         </Header>
         <p style={{ fontSize: '1.33em' }}>
-          Yes I know you probably disregarded the earlier boasts as non-sequitur
-          filler content, but it's really true. It took years of gene splicing
-          and combinatory DNA research, but our bananas can really dance.
+          Contact us and we may or may not initiate you as a new quanta.
         </p>
         <Button as="a" size="large">
-          I'm Still Quite Interested
+          Continue
         </Button>
       </Container>
     </Segment>
@@ -326,26 +349,22 @@ const HomepageLayout = () => (
                 <List.Item as="a">Sitemap</List.Item>
                 <List.Item as="a">Contact Us</List.Item>
                 <List.Item as="a">Religious Ceremonies</List.Item>
-                <List.Item as="a">Gazebo Plans</List.Item>
               </List>
             </Grid.Column>
             <Grid.Column width={3}>
               <Header inverted as="h4" content="Services" />
               <List link inverted>
-                <List.Item as="a">Banana Pre-Order</List.Item>
-                <List.Item as="a">DNA FAQ</List.Item>
-                <List.Item as="a">How To Access</List.Item>
-                <List.Item as="a">Favorite X-Men</List.Item>
+                <List.Item as="a">a</List.Item>
+                <List.Item as="a">a</List.Item>
+                <List.Item as="a">a</List.Item>
+                <List.Item as="a">a</List.Item>
               </List>
             </Grid.Column>
             <Grid.Column width={7}>
               <Header as="h4" inverted>
                 Footer Header
               </Header>
-              <p>
-                Extra space for a call to action inside the footer that could
-                help re-engage users.
-              </p>
+              <p />
             </Grid.Column>
           </Grid.Row>
         </Grid>
