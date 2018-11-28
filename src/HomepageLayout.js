@@ -3,6 +3,9 @@ import React, { Component } from 'react';
 import './semantic-ui/semantic.min.css';
 import './styles/video-react.css';
 import { Player } from 'video-react';
+import Screencap from './images/seascreencap.png';
+import Electrons from './videos/sea-of-electrons.MOV';
+import Grossman from './images/grossmanimg.jpg';
 
 import {
   Button,
@@ -237,17 +240,12 @@ const HomepageLayout = () => (
             </p>
           </Grid.Column>
           <Grid.Column floated="right" width={6}>
-            <Image
-              bordered
-              rounded
-              size="large"
-              src={'./images/grossmanimg.jpg'}
-            />
+            <Image bordered rounded size="large" src={Grossman} />
           </Grid.Column>
         </Grid.Row>
         <Grid.Row>
           <Grid.Column textAlign="center">
-            <Button size="huge">Check Them Out</Button>
+            <Button size="huge">Check Us Out</Button>
           </Grid.Column>
         </Grid.Row>
       </Grid>
@@ -260,16 +258,12 @@ const HomepageLayout = () => (
             <Header as="h3" style={{ fontSize: '2em' }}>
               "This is probably a joke" - ASA
             </Header>
-            <p style={{ fontSize: '1.33em' }}>Fair.</p>
+            <p style={{ fontSize: '1.33em' }} />
           </Grid.Column>
           <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
             <Header as="h3" style={{ fontSize: '2em' }}>
               "You guys are a meme that's gone way too far."
             </Header>
-            <p style={{ fontSize: '1.33em' }}>
-              <Image avatar src="/images/avatar/large/nan.jpg" />
-              <b />
-            </p>
           </Grid.Column>
         </Grid.Row>
       </Grid>
@@ -309,13 +303,9 @@ const HomepageLayout = () => (
         <Button as="a" size="large">
           Read More
         </Button>
-
+        <br />
         <p>
-          <Player
-            playsInline
-            poster={'./images/seascreencap.png'}
-            src={'./videos/sea-of-electrons.MOV'}
-          />
+          <Player playsInline poster={Screencap} src={Electrons} />
         </p>
 
         <Divider
@@ -331,7 +321,7 @@ const HomepageLayout = () => (
           Want to Join?
         </Header>
         <p style={{ fontSize: '1.33em' }}>
-          Contact us and we may or may not initiate you as a new quanta.
+          Contact us and we may or may not initiate you as a new quantum.
         </p>
         <Button as="a" size="large">
           Continue
