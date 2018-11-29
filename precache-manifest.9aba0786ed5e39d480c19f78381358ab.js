@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/dr-quantum/static/media/icons.8e3c7f55.eot"
   },
   {
-    "revision": "2265379f280ce5e55ff8",
+    "revision": "d524788eb0203caf18cc",
     "url": "/dr-quantum/static/css/main.8205769e.chunk.css"
   },
   {
@@ -16,12 +16,12 @@ self.__precacheManifest = [
     "url": "/dr-quantum/static/js/runtime~main.83e85804.js"
   },
   {
-    "revision": "ef60a4f6c25ef7f39f2d25a748dbecfe",
-    "url": "/dr-quantum/static/media/outline-icons.ef60a4f6.woff"
-  },
-  {
     "revision": "cd6c777f1945164224dee082abaea03a",
     "url": "/dr-quantum/static/media/outline-icons.cd6c777f.woff2"
+  },
+  {
+    "revision": "ef60a4f6c25ef7f39f2d25a748dbecfe",
+    "url": "/dr-quantum/static/media/outline-icons.ef60a4f6.woff"
   },
   {
     "revision": "9c74e172f87984c48ddf5c8108cabe67",
@@ -52,16 +52,16 @@ self.__precacheManifest = [
     "url": "/dr-quantum/static/media/brand-icons.a046592b.woff"
   },
   {
-    "revision": "2265379f280ce5e55ff8",
-    "url": "/dr-quantum/static/js/main.2265379f.chunk.js"
-  },
-  {
-    "revision": "b87b9ba532ace76ae9f6edfe9f72ded2",
-    "url": "/dr-quantum/static/media/icons.b87b9ba5.ttf"
+    "revision": "d524788eb0203caf18cc",
+    "url": "/dr-quantum/static/js/main.d524788e.chunk.js"
   },
   {
     "revision": "13db00b7a34fee4d819ab7f9838cc428",
     "url": "/dr-quantum/static/media/brand-icons.13db00b7.eot"
+  },
+  {
+    "revision": "b87b9ba532ace76ae9f6edfe9f72ded2",
+    "url": "/dr-quantum/static/media/icons.b87b9ba5.ttf"
   },
   {
     "revision": "c5ebe0b32dc1b5cc449a76c4204d13bb",
@@ -100,7 +100,7 @@ self.__precacheManifest = [
     "url": "/dr-quantum/static/media/grossmanimg.7608c53b.jpg"
   },
   {
-    "revision": "a69034d87f7ce4aafc1b9d521f89dccc",
+    "revision": "d415cfffcd0964d249a59fb75386ca75",
     "url": "/dr-quantum/index.html"
   }
 ];
