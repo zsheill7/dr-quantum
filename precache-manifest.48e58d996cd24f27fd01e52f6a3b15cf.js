@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "b87b9ba532ace76ae9f6edfe9f72ded2",
-    "url": "/dr-quantum/static/media/icons.b87b9ba5.ttf"
+    "revision": "8e3c7f5520f5ae906c6cf6d7f3ddcd19",
+    "url": "/dr-quantum/static/media/icons.8e3c7f55.eot"
   },
   {
-    "revision": "409a7a536722b52de6a4",
+    "revision": "ccdd6e14ee13f0348f33",
     "url": "/dr-quantum/static/css/main.8205769e.chunk.css"
   },
   {
@@ -16,12 +16,12 @@ self.__precacheManifest = [
     "url": "/dr-quantum/static/js/runtime~main.83e85804.js"
   },
   {
-    "revision": "cd6c777f1945164224dee082abaea03a",
-    "url": "/dr-quantum/static/media/outline-icons.cd6c777f.woff2"
-  },
-  {
     "revision": "ef60a4f6c25ef7f39f2d25a748dbecfe",
     "url": "/dr-quantum/static/media/outline-icons.ef60a4f6.woff"
+  },
+  {
+    "revision": "cd6c777f1945164224dee082abaea03a",
+    "url": "/dr-quantum/static/media/outline-icons.cd6c777f.woff2"
   },
   {
     "revision": "9c74e172f87984c48ddf5c8108cabe67",
@@ -52,20 +52,20 @@ self.__precacheManifest = [
     "url": "/dr-quantum/static/media/brand-icons.a046592b.woff"
   },
   {
-    "revision": "409a7a536722b52de6a4",
-    "url": "/dr-quantum/static/js/main.409a7a53.chunk.js"
+    "revision": "ccdd6e14ee13f0348f33",
+    "url": "/dr-quantum/static/js/main.ccdd6e14.chunk.js"
   },
   {
-    "revision": "8e3c7f5520f5ae906c6cf6d7f3ddcd19",
-    "url": "/dr-quantum/static/media/icons.8e3c7f55.eot"
-  },
-  {
-    "revision": "c5ebe0b32dc1b5cc449a76c4204d13bb",
-    "url": "/dr-quantum/static/media/brand-icons.c5ebe0b3.ttf"
+    "revision": "b87b9ba532ace76ae9f6edfe9f72ded2",
+    "url": "/dr-quantum/static/media/icons.b87b9ba5.ttf"
   },
   {
     "revision": "13db00b7a34fee4d819ab7f9838cc428",
     "url": "/dr-quantum/static/media/brand-icons.13db00b7.eot"
+  },
+  {
+    "revision": "c5ebe0b32dc1b5cc449a76c4204d13bb",
+    "url": "/dr-quantum/static/media/brand-icons.c5ebe0b3.ttf"
   },
   {
     "revision": "82f60bd0b94a1ed68b1e6e309ce2e8c3",
@@ -100,7 +100,7 @@ self.__precacheManifest = [
     "url": "/dr-quantum/static/media/grossmanimg.7608c53b.jpg"
   },
   {
-    "revision": "49903201ec201759c4db173905a0a4d1",
+    "revision": "4c1db50417e0bfe7e6af7b058b11e21b",
     "url": "/dr-quantum/index.html"
   }
 ];

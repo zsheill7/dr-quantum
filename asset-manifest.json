@@ -1,19 +1,19 @@
 {
   "main.css": "/dr-quantum/static/css/main.8205769e.chunk.css",
-  "main.js": "/dr-quantum/static/js/main.409a7a53.chunk.js",
-  "main.js.map": "/dr-quantum/static/js/main.409a7a53.chunk.js.map",
+  "main.js": "/dr-quantum/static/js/main.ccdd6e14.chunk.js",
+  "main.js.map": "/dr-quantum/static/js/main.ccdd6e14.chunk.js.map",
   "static/js/1.a57602a8.chunk.js": "/dr-quantum/static/js/1.a57602a8.chunk.js",
   "static/js/1.a57602a8.chunk.js.map": "/dr-quantum/static/js/1.a57602a8.chunk.js.map",
   "runtime~main.js": "/dr-quantum/static/js/runtime~main.83e85804.js",
   "runtime~main.js.map": "/dr-quantum/static/js/runtime~main.83e85804.js.map",
   "static/media/seascreencap.png": "/dr-quantum/static/media/seascreencap.35100c82.png",
-  "static/media/semantic.min.css": "/dr-quantum/static/media/outline-icons.ef60a4f6.woff",
+  "static/media/semantic.min.css": "/dr-quantum/static/media/outline-icons.cd6c777f.woff2",
   "static/media/sea-of-electrons.MOV": "/dr-quantum/static/media/sea-of-electrons.0a47e0e3.MOV",
   "static/media/drquantumface.jpg": "/dr-quantum/static/media/drquantumface.d0d76654.jpg",
   "static/media/logo.svg": "/dr-quantum/static/media/logo.5d5d9eef.svg",
   "static/media/grossmanimg.jpg": "/dr-quantum/static/media/grossmanimg.7608c53b.jpg",
   "static/css/main.8205769e.chunk.css.map": "/dr-quantum/static/css/main.8205769e.chunk.css.map",
   "index.html": "/dr-quantum/index.html",
-  "precache-manifest.8a8fd8d0cd0c4baed2736847f90514c1.js": "/dr-quantum/precache-manifest.8a8fd8d0cd0c4baed2736847f90514c1.js",
+  "precache-manifest.48e58d996cd24f27fd01e52f6a3b15cf.js": "/dr-quantum/precache-manifest.48e58d996cd24f27fd01e52f6a3b15cf.js",
   "service-worker.js": "/dr-quantum/service-worker.js"
 }
