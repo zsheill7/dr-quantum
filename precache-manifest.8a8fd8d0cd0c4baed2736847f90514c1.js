@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "a046592bac8f2fd96e994733faf3858c",
-    "url": "/dr-quantum/static/media/brand-icons.a046592b.woff"
+    "revision": "b87b9ba532ace76ae9f6edfe9f72ded2",
+    "url": "/dr-quantum/static/media/icons.b87b9ba5.ttf"
   },
   {
-    "revision": "9c7e91bd3a7c677201b8",
+    "revision": "409a7a536722b52de6a4",
     "url": "/dr-quantum/static/css/main.8205769e.chunk.css"
   },
   {
-    "revision": "5d2eec36a6da8936401e",
-    "url": "/dr-quantum/static/js/1.5d2eec36.chunk.js"
+    "revision": "a57602a8b0d9942f8f09",
+    "url": "/dr-quantum/static/js/1.a57602a8.chunk.js"
   },
   {
     "revision": "83e85804d89add23c223",
@@ -48,16 +48,12 @@ self.__precacheManifest = [
     "url": "/dr-quantum/static/media/brand-icons.e8c322de.woff2"
   },
   {
-    "revision": "9c7e91bd3a7c677201b8",
-    "url": "/dr-quantum/static/js/main.9c7e91bd.chunk.js"
+    "revision": "a046592bac8f2fd96e994733faf3858c",
+    "url": "/dr-quantum/static/media/brand-icons.a046592b.woff"
   },
   {
-    "revision": "b87b9ba532ace76ae9f6edfe9f72ded2",
-    "url": "/dr-quantum/static/media/icons.b87b9ba5.ttf"
-  },
-  {
-    "revision": "13db00b7a34fee4d819ab7f9838cc428",
-    "url": "/dr-quantum/static/media/brand-icons.13db00b7.eot"
+    "revision": "409a7a536722b52de6a4",
+    "url": "/dr-quantum/static/js/main.409a7a53.chunk.js"
   },
   {
     "revision": "8e3c7f5520f5ae906c6cf6d7f3ddcd19",
@@ -66,6 +62,10 @@ self.__precacheManifest = [
   {
     "revision": "c5ebe0b32dc1b5cc449a76c4204d13bb",
     "url": "/dr-quantum/static/media/brand-icons.c5ebe0b3.ttf"
+  },
+  {
+    "revision": "13db00b7a34fee4d819ab7f9838cc428",
+    "url": "/dr-quantum/static/media/brand-icons.13db00b7.eot"
   },
   {
     "revision": "82f60bd0b94a1ed68b1e6e309ce2e8c3",
@@ -88,15 +88,19 @@ self.__precacheManifest = [
     "url": "/dr-quantum/static/media/sea-of-electrons.0a47e0e3.MOV"
   },
   {
-    "revision": "7608c53b6a1b297c892466626471f6e9",
-    "url": "/dr-quantum/static/media/grossmanimg.7608c53b.jpg"
+    "revision": "d0d7665488072025400355ba61ad1edd",
+    "url": "/dr-quantum/static/media/drquantumface.d0d76654.jpg"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
     "url": "/dr-quantum/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "afa4c8f1bfdc15fec8a46bc8df8419e5",
+    "revision": "7608c53b6a1b297c892466626471f6e9",
+    "url": "/dr-quantum/static/media/grossmanimg.7608c53b.jpg"
+  },
+  {
+    "revision": "49903201ec201759c4db173905a0a4d1",
     "url": "/dr-quantum/index.html"
   }
 ];
