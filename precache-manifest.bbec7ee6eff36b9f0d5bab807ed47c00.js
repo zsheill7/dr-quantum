@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/dr-quantum/static/media/icons.8e3c7f55.eot"
   },
   {
-    "revision": "ccdd6e14ee13f0348f33",
+    "revision": "2265379f280ce5e55ff8",
     "url": "/dr-quantum/static/css/main.8205769e.chunk.css"
   },
   {
@@ -52,8 +52,8 @@ self.__precacheManifest = [
     "url": "/dr-quantum/static/media/brand-icons.a046592b.woff"
   },
   {
-    "revision": "ccdd6e14ee13f0348f33",
-    "url": "/dr-quantum/static/js/main.ccdd6e14.chunk.js"
+    "revision": "2265379f280ce5e55ff8",
+    "url": "/dr-quantum/static/js/main.2265379f.chunk.js"
   },
   {
     "revision": "b87b9ba532ace76ae9f6edfe9f72ded2",
@@ -100,7 +100,7 @@ self.__precacheManifest = [
     "url": "/dr-quantum/static/media/grossmanimg.7608c53b.jpg"
   },
   {
-    "revision": "4c1db50417e0bfe7e6af7b058b11e21b",
+    "revision": "a69034d87f7ce4aafc1b9d521f89dccc",
     "url": "/dr-quantum/index.html"
   }
 ];

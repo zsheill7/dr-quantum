@@ -1,7 +1,7 @@
 {
   "main.css": "/dr-quantum/static/css/main.8205769e.chunk.css",
-  "main.js": "/dr-quantum/static/js/main.ccdd6e14.chunk.js",
-  "main.js.map": "/dr-quantum/static/js/main.ccdd6e14.chunk.js.map",
+  "main.js": "/dr-quantum/static/js/main.2265379f.chunk.js",
+  "main.js.map": "/dr-quantum/static/js/main.2265379f.chunk.js.map",
   "static/js/1.a57602a8.chunk.js": "/dr-quantum/static/js/1.a57602a8.chunk.js",
   "static/js/1.a57602a8.chunk.js.map": "/dr-quantum/static/js/1.a57602a8.chunk.js.map",
   "runtime~main.js": "/dr-quantum/static/js/runtime~main.83e85804.js",
@@ -14,6 +14,6 @@
   "static/media/grossmanimg.jpg": "/dr-quantum/static/media/grossmanimg.7608c53b.jpg",
   "static/css/main.8205769e.chunk.css.map": "/dr-quantum/static/css/main.8205769e.chunk.css.map",
   "index.html": "/dr-quantum/index.html",
-  "precache-manifest.48e58d996cd24f27fd01e52f6a3b15cf.js": "/dr-quantum/precache-manifest.48e58d996cd24f27fd01e52f6a3b15cf.js",
+  "precache-manifest.bbec7ee6eff36b9f0d5bab807ed47c00.js": "/dr-quantum/precache-manifest.bbec7ee6eff36b9f0d5bab807ed47c00.js",
   "service-worker.js": "/dr-quantum/service-worker.js"
 }
