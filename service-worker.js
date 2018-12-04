@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/dr-quantum/precache-manifest.13a593a02ab15e9a0d9f584036f493cd.js"
+  "drquantumsociety.com/precache-manifest.7cd54745ac39c4926f48ee51f9711adc.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/dr-quantum/index.html", {
+workbox.routing.registerNavigationRoute("drquantumsociety.com/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
