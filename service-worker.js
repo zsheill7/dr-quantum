@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/dr-quantum/precache-manifest.9aba0786ed5e39d480c19f78381358ab.js"
+  "/dr-quantum/precache-manifest.13a593a02ab15e9a0d9f584036f493cd.js"
 );
 
 workbox.clientsClaim();
