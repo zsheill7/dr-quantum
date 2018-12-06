@@ -6,6 +6,7 @@ import { Player } from 'video-react';
 import Screencap from './images/seascreencap.png';
 import Electrons from './videos/sea-of-electrons.MOV';
 import Grossman from './images/grossmanimg.jpg';
+import Face from './images/drquantumface.jpg';
 
 import {
   Button,
@@ -51,7 +52,7 @@ const HomepageHeading = ({ mobile }) => (
       }}
     />
     <Button primary size="huge">
-      Get Started
+      Collapse Wave Function
       <Icon name="right arrow" />
     </Button>
   </Container>
@@ -240,7 +241,7 @@ const HomepageLayout = () => (
             </p>
           </Grid.Column>
           <Grid.Column floated="right" width={6}>
-            <Image bordered rounded size="large" src={Grossman} />
+            <Image bordered rounded size="large" src={Face} />
           </Grid.Column>
         </Grid.Row>
         <Grid.Row>
@@ -300,9 +301,9 @@ const HomepageLayout = () => (
           the toppings in the middle and a dunce cone on top. We eat sophomores
           for celebration.
         </p>
-        <Button as="a" size="large">
-          Read More
-        </Button>
+
+        <br />
+        <br />
         <br />
         <p>
           <Player playsInline poster={Screencap} src={Electrons} />
