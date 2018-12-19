@@ -104,21 +104,6 @@ class DesktopContainer extends Component {
                 <Menu.Item as="a" active>
                   Home
                 </Menu.Item>
-                // <Menu.Item as="a">About</Menu.Item>
-                // <Menu.Item as="a">Plans</Menu.Item>
-                // <Menu.Item position="right">
-                //   <Button as="a" inverted={!fixed}>
-                //     Log in
-                //   </Button>
-                //   <Button
-                //     as="a"
-                //     inverted={!fixed}
-                //     primary={fixed}
-                //     style={{ marginLeft: '0.5em' }}
-                //   >
-                //     Sign Up
-                //   </Button>
-                // </Menu.Item>
               </Container>
             </Menu>
             <HomepageHeading />
@@ -366,3 +351,19 @@ const HomepageLayout = () => (
 );
 
 export default HomepageLayout;
+
+// <Menu.Item as="a">About</Menu.Item>
+// <Menu.Item as="a">Plans</Menu.Item>
+// <Menu.Item position="right">
+//   <Button as="a" inverted={!fixed}>
+//     Log in
+//   </Button>
+//   <Button
+//     as="a"
+//     inverted={!fixed}
+//     primary={fixed}
+//     style={{ marginLeft: '0.5em' }}
+//   >
+//     Sign Up
+//   </Button>
+// </Menu.Item>
