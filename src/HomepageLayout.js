@@ -249,8 +249,10 @@ const HomepageLayout = () => (
           </Grid.Column>
         </Grid.Row>
         <Grid.Row>
+          //{' '}
           <Grid.Column textAlign="center">
-            <Button size="huge">Check Us Out</Button>
+            // <Button size="huge">Check Us Out</Button>
+            //{' '}
           </Grid.Column>
         </Grid.Row>
       </Grid>
@@ -328,8 +330,8 @@ const HomepageLayout = () => (
         <p style={{ fontSize: '1.33em' }}>
           Contact us and we may or may not initiate you as a new quantum.
         </p>
-        <Button as="a" size="large">
-          Continue
+        <Button href="mailto:dr-quantum-sultans@mit.edu" size="large">
+          Contact
         </Button>
       </Container>
     </Segment>
@@ -343,17 +345,12 @@ const HomepageLayout = () => (
               <List link inverted>
                 <List.Item as="a">Sitemap</List.Item>
                 <List.Item as="a">Contact Us</List.Item>
-                <List.Item as="a">Religious Ceremonies</List.Item>
+                <List.Item as="a">Cult Ceremonies</List.Item>
               </List>
             </Grid.Column>
             <Grid.Column width={3}>
               <Header inverted as="h4" content="Services" />
-              <List link inverted>
-                <List.Item as="a">a</List.Item>
-                <List.Item as="a">a</List.Item>
-                <List.Item as="a">a</List.Item>
-                <List.Item as="a">a</List.Item>
-              </List>
+              <List link inverted />
             </Grid.Column>
             <Grid.Column width={7}>
               <Header as="h4" inverted>
