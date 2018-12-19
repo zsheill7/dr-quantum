@@ -51,7 +51,11 @@ const HomepageHeading = ({ mobile }) => (
         marginTop: mobile ? '0.5em' : '1.5em'
       }}
     />
-    <Button primary size="huge">
+    <Button
+      href="https://www.youtube.com/watch?v=DfPeprQ7oGc"
+      primary
+      size="huge"
+    >
       Collapse Wave Function
       <Icon name="right arrow" />
     </Button>
